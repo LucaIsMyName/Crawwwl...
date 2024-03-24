@@ -1,9 +1,9 @@
 const SiteMapConfig = {
-    startURL: "https://www.brot-fuer-die-welt.at",
-    maxDepth: 7, // Maximum depth to crawl for links, -1 for no limit
+    startURL: "https://tiefwurzler.at",
+    maxDepth: 3, // Maximum depth to crawl for links, -1 for no limit
     concurrency: 5, // Number of requests to run concurrently
     userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36", // The user agent to use for requests
-    allowedDomains: 'www.brot-fuer-die-welt.at', // Only visit URLs from these domains
+    allowedDomains: 'tiefwurzler.at', // Only visit URLs from these domains
     disallowedPaths: [
         "/cdn-cgi/",
         "cloudlfare.com/",
